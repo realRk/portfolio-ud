@@ -1,0 +1,54 @@
+
+body{
+  background-color: #BCB8B0;
+  font-family: Ubuntu;
+
+}
+.heading{
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+.custom{
+  font-size: 10px;
+  margin:5px;
+  min-height: 100px;
+}
+.logo{
+  padding-left:50px;
+  padding-top: 30px;
+}
+.img-back{
+  width:100%;
+
+
+}
+.work-space{
+  min-height: 300px;
+
+  margin: 5px;
+  text-align: center;
+}
+footer{
+  background-color: #f1f1f1;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+footer ul{
+  text-align: center;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline-flex;
+  margin: 30px;
+}
+
+@media screen and (max-width: 768px){
+  .logo{
+    text-align: center;
+  }
+  .heading{
+    text-align: center;
+  }
+}
