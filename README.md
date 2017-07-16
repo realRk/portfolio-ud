@@ -8,4 +8,4 @@ Udacity's instructions for this project can be found [here](https://github.com/u
 
 Built a fully responsive site using `HTML`, `CSS` & `Bootstrap` elements
 
-Photos courtesy of [Unsplash](https://unsplash.com), used with permission under the [Creative Commons Zero License](https://unsplash.com/faq).
+
