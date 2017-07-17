@@ -5,38 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>portfolio</title>
+    <title> My Portfolio</title>
 
     <!-- Bootstrap -->
-    <link href="bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="custom-css/custom.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <style type="text/css">
+    /* adding background-image for body*/
+        body{
+            background-image: url("http://zellox.com/wp-content/uploads/2016/05/website-backgrounds-%E2%80%AB1%E2%80%AC-%E2%80%AB%E2%80%AC.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
   </head>
   <body>
     <div class="container">
+      <!--each row covers 12 logical space of the display-->
       <div class="row">
         <div class="col-md-6 logo">
+          <!-- class col-md-6 is used to make this div responsive according to device display width  and it covers 6 of the 12 spaces-->
           <div class="custom">
-            <img src="rksh.png">
+            <!-- adding logo-->
+            <img src="res/rksh.png" alt="logo with letters R and K">
         </div>
         </div>
+        <!--div for adding name and job name-->
         <div class="col-md-6 heading">
           <h1>Rakesh R</h1>
           <h4>Full stack web developer</h4>
         </div>
+        <!--div for showing image-->
         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" style="padding-left:0px;padding-right:0px;"><div style="height:18px; background-color:grey;"></div></div>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="img-back">
-              <div><img class="img-responsive" style=" width:100%;"src="dd.jpg"></div>
+              <div><img class="img-responsive" style=" width:100%;" src="res/dd.jpg" alt="background-image having a monitor"></div>
             </div>
             <div>
           </div>
@@ -45,40 +54,38 @@
         </div>
 
         </div>
+        <!-- class clearfix is used to remove spaces between two div-->
         <div class="clearfix visibility-sm"></div>
 
+        <!--div for adding work examples-->
         <div class="row" style="margin-top:20px;margin-left:0px;margin-right:0px;">
-          <div class="  col-md-4 col-lg-4"><div class="work-space"><img  style="width:100%; height:100%;"src="cc.jpg">
+          <div class="  col-md-4 col-lg-4"><div class="work-space"><img  style="width:100%; height:100%;" src="res/cc.jpg" alt="work example">
             <h3>Project One</h3>
             <h4>Udacity Front-end Web development Nanodegree</h4>
             <h5>www.github.com</h5>
           </div>
         </div>
-          <div class="  col-md-4 col-lg-4"><div class="work-space"><img  style="width:100%; height:100%;"src="ee.jpg">
+          <div class="  col-md-4 col-lg-4"><div class="work-space"><img  style="width:100%; height:100%;" src="res/ee.jpg" alt="work example">
             <h3>Project Two</h3>
             <h4>Udacity Front-end Web development Nanodegree</h4>
             <h5>www.github.com</h5>
           </div>
         </div>
-          <div class="  col-md-4 col-lg-4"><div class="work-space"><img  style="width:100%; height:100%;"src="ff.jpg">
+          <div class="  col-md-4 col-lg-4"><div class="work-space"><img  style="width:100%; height:100%;" src="res/ff.jpg" alt="work example">
             <h3>Project Three</h3>
             <h4>Udacity Front-end Web development Nanodegree</h4>
             <h5>www.github.com</h5>
           </div>
         </div>
-
-        </div>
+      </div>
 
       </div>
-      <footer class="row col-12">
- 
+      <!-- div for footer-->
+      <footer class="row col-12 list-inline">
       </footer>
     </div>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
